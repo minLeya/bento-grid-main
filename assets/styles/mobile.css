@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url(assets/fonts/static/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-MediumItalic';
+    src: url(assets/fonts/static/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url(assets/fonts/static/DMSans-Regular.ttf);
+}
+
+/* it doesn't work */
+html {
+    font-family: 'DMSans-MediumItalic';
+}
+
+@media (min-width: 375px) {
+
+}
