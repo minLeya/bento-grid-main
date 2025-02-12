@@ -13,11 +13,24 @@
     src: url(assets/fonts/static/DMSans-Regular.ttf);
 }
 
-/* it doesn't work */
 html {
-    font-family: 'DMSans-MediumItalic';
+    font-family: 'DMSans-MediumItalic', sans-serif;
 }
 
-@media (min-width: 375px) {
+.create {
+    width: 350px;
+    height: 350px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.create-pic {
+    -width: 50px;
+}
+
+@media (min-width: 1440px) {
+    
+
 
 }
