@@ -13,10 +13,69 @@
     src: url(assets/fonts/static/DMSans-Regular.ttf);
 }
 
-html {
-    font-family: 'DMSans-MediumItalic', sans-serif;
+/* кажется не работает */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DMSans-Regular', sans-serif;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color:#f8f8f8;
 }
 
+.social-media {
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+/* посмотреть на шрифт, междустрочный интервал, деление и цвет текста */
+.social-media-title h3 {
+    font-size: 25px;
+}
+
+.social-media-subtitle {
+    font-size: 20px;
+}
+
+.social-media-stars img {
+    width: 150px;
+    margin: 10px 0; /* только сверху-снизу */
+}
+
+.manage-accounts {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* here */
+.manage-accounts-pic img {
+    border-radius: 75px;
+    width: 400px;
+    ;
+}
+
+.maintain, .schedule,
+.grow-followers, .faster-growth,
+.create, .write-your-content {
+    max-width:  400px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+}
 .create {
     width: 350px;
     height: 350px;
@@ -25,9 +84,7 @@ html {
     background-color: hsl(256, 67%, 59%);
 }
 
-.create-pic {
-    -width: 50px;
-}
+
 
 @media (min-width: 1440px) {
     
