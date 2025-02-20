@@ -53,11 +53,11 @@ body {
 .create, .write-your-content {
     max-width: 300px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 20px;
 }
 
-/* !first block */
+/* !1 block */
 .social-media {
     background-color: hsl(256, 67%, 59%);
     color: white;
@@ -69,7 +69,6 @@ body {
     font-size: 40px;
     font-weight: 500;
     line-height: 1;
-
     text-align: center;
 }
 
@@ -88,18 +87,18 @@ body {
 }
 
 .social-media-stars img {
-    width: 150px;
+    max-width: 150px;
     margin-top: 20px; 
 }
 
-/* !second block */
+/* !2 block */
 .manage-accounts {
     background-color: white;
 }
 
 .manage-accounts-pic img {
     border-radius: 75px;
-    width: 280px;
+    max-width: 280px;
 }
 
 .manage-accounts-title {
@@ -109,11 +108,12 @@ body {
     padding-top: 10px;
 }
 
-/* !third block */
+/* !3 block */
 .maintain {
     background-color: hsl(39, 100%, 71%);
     padding-bottom: 0;
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -121,37 +121,97 @@ body {
     font-weight: 600;
     font-size: 19px;
     line-height: 1;
-    margin-bottom: 15px;
-}
-
-.maintain-pic {
-
 }
 
 .maintain-pic img {
-    width: 170px;
+    max-width: 170px;
+    transform: translateY(15px); /* move down */
 }
 
-/* !fourth block */
+/* !4 block */
 .schedule {
     text-align: center;
     background-color: hsl(254, 88%, 90%);
     padding: 10px;
 }
 
+.schedule-title {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+    /* up right down left */
+}
+
+.schedule-subtitle {
+    line-height: 1;
+    padding: 15px;
+}
+
 .schedule-pic img {
-    width: 270px;
+    max-width: 270px;
     padding: 0;
 }
 
-.create {
-    width: 350px;
-    height: 350px;
-    border-style: none;
-    border-radius: 10px;
+/* !5 block */
+.grow-followers {
     background-color: hsl(256, 67%, 59%);
+    color: white;
+    font-size: 25px;
+    font-weight: 500; 
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+.grow-followers-pic img {
+    max-width: 200px;
+}
+
+.grow-followers-title {
+    max-width: 180px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* !6 block */
+.faster-growth {
+    background-color: white;
+}
+
+.faster-growth-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.faster-growth-subtitle {
+    font-size: 19px;
+}
+
+.faster-growth-pic img {
+    max-width: 160px;
+    padding-top: 15px;
+}
+
+/* !7 block */
+.create {
+    background-color: hsl(31, 66%, 93%);
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.create-title span {
+    color: hsl(256, 67%, 59%);
+}
+
+.create-pic img {
+    max-width: 140px;
+    margin-top: 15px;
+}
+
+/* !8 block */
 
 
 @media (min-width: 1440px) {
