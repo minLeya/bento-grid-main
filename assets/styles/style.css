@@ -1,4 +1,5 @@
-@font-face {
+/* there's some problems w/ using font-face */
+/* @font-face {
     font-family: 'DMSans-Medium';
     src: url(assets/fonts/static/DMSans-Medium.ttf);
 }
@@ -13,13 +14,29 @@
     src: url(assets/fonts/static/DMSans-Regular.ttf);
 }
 
-/* кажется не работает */
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./assets/fonts/DMSans-VariableFont_opsz,wght.ttf) format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DM Sans Italic";
+    src: url("DMSans-Italic-VariableFont_opsz,wght.ttf");
+    font-weight: 100 900;
+    font-style: italic;
+}
+ */
+
+ 
+/* could solve this problem using google fonts */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DMSans-Regular', sans-serif;
-  }
+    font-family: 'DM Sans', sans-serif;
+}
 
 body {
     display: flex;
@@ -30,52 +47,103 @@ body {
     background-color:#f8f8f8;
 }
 
-.social-media {
-    background-color: hsl(256, 67%, 59%);
-    border-radius: 15px;
-    color: white;
-    text-align: center;
+/* for all */
+.social-media, .manage-accounts, .maintain, .schedule,
+.grow-followers, .faster-growth,
+.create, .write-your-content {
+    max-width: 300px;
     width: 100%;
-    max-width: 400px;
+    border-radius: 15px;
     padding: 20px;
 }
-/* посмотреть на шрифт, междустрочный интервал, деление и цвет текста */
-.social-media-title h3 {
-    font-size: 25px;
+
+/* !first block */
+.social-media {
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    text-align: center;
+}
+
+.social-media-title {
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.social-media-title .highlight {
+    color: hsl(39, 100%, 71%);
 }
 
 .social-media-subtitle {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 
 .social-media-stars img {
     width: 150px;
-    margin: 10px 0; /* только сверху-снизу */
+    margin-top: 20px; 
 }
 
+/* !second block */
 .manage-accounts {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
     background-color: white;
-    border-radius: 15px;
 }
 
-/* here */
 .manage-accounts-pic img {
     border-radius: 75px;
-    width: 400px;
-    ;
+    width: 280px;
 }
 
-.maintain, .schedule,
-.grow-followers, .faster-growth,
-.create, .write-your-content {
-    max-width:  400px;
-    width: 100%;
-    border-radius: 15px;
-    padding: 20px;
+.manage-accounts-title {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 10px;
 }
+
+/* !third block */
+.maintain {
+    background-color: hsl(39, 100%, 71%);
+    padding-bottom: 0;
+    position: relative;
+
+}
+
+.maintain-title {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.maintain-pic {
+
+}
+
+.maintain-pic img {
+    width: 170px;
+}
+
+/* !fourth block */
+.schedule {
+    text-align: center;
+    background-color: hsl(254, 88%, 90%);
+    padding: 10px;
+}
+
+.schedule-pic img {
+    width: 270px;
+    padding: 0;
+}
+
 .create {
     width: 350px;
     height: 350px;
