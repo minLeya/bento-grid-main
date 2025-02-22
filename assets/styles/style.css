@@ -212,7 +212,23 @@ body {
 }
 
 /* !8 block */
+.write-your-content {
+    background-color: hsl(39, 100%, 71%);
+}
 
+.write-your-content-title {
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.write-your-content-pic {
+    padding-top: 20px;
+}
+
+.write-your-content-pic img {
+    max-width: 190px;
+}
 
 @media (min-width: 1440px) {
     
