@@ -36,6 +36,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
+    letter-spacing: -1px;
 }
 
 body {
@@ -107,8 +108,8 @@ body {
     }
 
     .manage-accounts-title {
-        font-size: 19px;
-        font-weight: 600;
+        font-size: 21px;
+        font-weight: 500;
         line-height: 1;
         padding-top: 10px;
     }
@@ -123,8 +124,8 @@ body {
     }
 
     .maintain-title {
-        font-weight: 600;
-        font-size: 19px;
+        font-weight: 500;
+        font-size: 22px;
         line-height: 1;
     }
 
@@ -141,8 +142,8 @@ body {
     }
 
     .schedule-title {
-        font-size: 19px;
-        font-weight: 600;
+        font-size: 22px;
+        font-weight: 500;
         padding: 10px 0px 10px 0px;
         /* up right down left */
     }
@@ -150,6 +151,7 @@ body {
     .schedule-subtitle {
         line-height: 1;
         padding: 15px;
+        font-size: 18px;
     }
 
     .schedule-pic img {
@@ -161,7 +163,6 @@ body {
     .grow-followers {
         background-color: hsl(256, 67%, 59%);
         color: white;
-        font-size: 25px;
         font-weight: 500; 
         line-height: 1;
         display: flex;
@@ -177,6 +178,7 @@ body {
         width: 180px;
         text-align: center;
         margin-top: 25px;
+        font-size: 23px;
     }
 
     /* !6 block */
@@ -185,12 +187,12 @@ body {
     }
 
     .faster-growth-title {
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 40px;
+        font-weight: 500;
     }
 
     .faster-growth-subtitle {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .faster-growth-pic img {
@@ -203,7 +205,7 @@ body {
         background-color: hsl(31, 66%, 93%);
         line-height: 1;
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 500;
         padding: 20px;
     }
 
@@ -224,8 +226,8 @@ body {
 
     .write-your-content-title {
         line-height: 1;
-        font-size: 24px;
-        font-weight: 600;
+        font-size: 25px;
+        font-weight: 500;
     }
 
     .write-your-content-pic {
